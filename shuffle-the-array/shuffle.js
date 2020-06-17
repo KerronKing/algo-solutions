@@ -4,15 +4,15 @@ var shuffle = function(nums, n) {
   let b = [];
   
   for (let i = 0; i < nums.length; i++) {
-      i < n ? a.push(nums[i]) : b.push(nums[i]);
+    i < n ? a.push(nums[i]) : b.push(nums[i]);
   }
   
   j = 0;
   
   while (result.length < nums.length) {
-      result.push(a[j]);
-      result.push(b[j]);
-      j++;
+    result.push(a[j]);
+    result.push(b[j]);
+    j++;
   }
   
   return result;
